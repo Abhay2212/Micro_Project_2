@@ -33,7 +33,7 @@ header .logo {
   text-decoration: none;
   color: #fff;
   font-family: DM Sans;
-  font-size: 26px;
+  font-size: 22px;
   cursor: pointer;
 }
 .vector img {
@@ -44,7 +44,7 @@ header .logo {
 }
 .search input {
   width: 20vw;
-  height: 5vh;
+  height: 6vh;
   padding: 10px 20px;
   border-radius: 60px;
   border: none;
@@ -59,12 +59,12 @@ input {
   background-color: #fff;
   position: absolute;
   top: 20px;
-  right: 150px;
+  right: 200px;
   border: none;
   cursor: pointer;
 }
 .vector_2 img {
-  width: 40px;
+  width: 30px;
   cursor: pointer;
 }
 main {
@@ -233,9 +233,12 @@ main {
 .colon {
   font-weight: 900;
 }
+.button img{
+  width: 35px;
+}
 .button button {
   margin-top: 90px;
-  padding: 12px 25px 12px 20px;
+  padding: 10px 25px 12px 20px;
   color: #fff;
   font-size: 25px;
   font-weight: 400;
