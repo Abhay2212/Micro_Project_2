@@ -9,7 +9,7 @@
   display: none;
 }
 .space_between {
-  margin-top: 90px;
+  margin-top: 80px;
 }
 header {
   background-color: #6f6af7;
@@ -29,7 +29,7 @@ header .logo {
   cursor: pointer;
 }
 .links a {
-  padding-right: 55px;
+  padding-right: 30px;
   text-decoration: none;
   color: #fff;
   font-family: DM Sans;
@@ -58,8 +58,8 @@ input {
 .search button {
   background-color: #fff;
   position: absolute;
-  top: 28px;
-  right: 265px;
+  top: 20px;
+  right: 150px;
   border: none;
   cursor: pointer;
 }
@@ -98,26 +98,30 @@ main {
 }
 .hero_text p {
   color: #6f7373;
-  font-size: 29px;
-  line-height: 178.7%;
+  font-size: 25px;
+  line-height: 150%;
 }
 .whatapp {
   position: relative;
 }
+.whatapp img{
+  mix-blend-mode: darken;
+}
 .whatapp_logo {
   position: absolute;
-  top: 7px;
-  right: 8px;
+  top: 0px;
+  right: 0px;
 }
 .social {
   position: sticky;
   display: flex;
   flex-direction: column;
-  height: 95%;
-  top: 170px;
+  height: 90%;
+  top: 140px;
   cursor: pointer;
 }
 .social img {
+  width: 70px;
   float: right;
 }
 .cards {
@@ -133,7 +137,7 @@ main {
   cursor: pointer;
 }
 .card_text {
-  padding: 10px 20px;
+  padding: 0px 20px;
   color: #fff;
   font-size: 23px;
   font-weight: 600;
@@ -163,10 +167,11 @@ main {
   background: #483eff;
   display: flex;
   justify-content: space-between;
-  margin: 150px 0 100px 0;
+  margin: 120px 0px;
 }
 
 .information_left {
+  width: 30vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -184,9 +189,8 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700;
-  line-height: 178.7%;
   letter-spacing: 1.4px;
   cursor: pointer;
 }
@@ -197,15 +201,15 @@ main {
 }
 .information_right {
   margin: 20px 50px;
-  padding: 50px;
-  border-radius: 19px;
+  padding: 30px;
+  border-radius: 15px;
   background: #fff;
   width: 80vw;
 }
 .information_right h2 {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   color: #04285a;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 700;
   letter-spacing: 3px;
 }
@@ -218,20 +222,19 @@ main {
   line-height: 45px;
 }
 .information_question {
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 600;
-  letter-spacing: 2.94px;
+  letter-spacing: 2.5px;
 }
 .information_answer {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
-  letter-spacing: 1.2px;
 }
 .colon {
   font-weight: 900;
 }
 .button button {
-  margin-top: 150px;
+  margin-top: 90px;
   padding: 12px 25px 12px 20px;
   color: #fff;
   font-size: 25px;
@@ -246,7 +249,10 @@ main {
 .help_support {
   float: right;
   position: fixed;
-  bottom: -50px;
-  right: 80px;
+  bottom: -40px;
+  right: 66px;
   cursor: pointer;
+}
+.help_support img{
+  width: 10vw;
 }
